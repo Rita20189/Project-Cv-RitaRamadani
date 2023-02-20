@@ -46,6 +46,9 @@
             <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
@@ -60,6 +63,7 @@
 
     <div class="container-fluid p-0">
 
+<!-- ABOUT -->
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
           <h1 class="mb-0">Rita
@@ -71,7 +75,7 @@
             sedang belajar bahasa java dan PHP. Saya memiliki tanggung jawab yang tinggi,</br>dapat diandalkan,mampu bekerja sama dengan tim dan berkomunikasi dengan baik.</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://web.facebook.com/index.php?_rdc=1&_rdr">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -79,7 +83,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://twitter.com/home">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -87,7 +91,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/me?trk=p_mwlite_feed_updates-secondary_nav">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -95,7 +99,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://github.com/">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -106,6 +110,7 @@
         </div>
       </section>
 
+<!-- EXPERIENCE -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
           <h2 class="mb-5">Experience</h2>
@@ -131,41 +136,60 @@
               <span class="text-primary">Juni 2021</span>
             </div>
           </div>
-
         </div>
-
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
+<!-- EDUCATION-->
+      <section class="resume-section p-2 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
-          <h2 class="mb-5">Portfolio</h2>
+          <h2 class="mb-5">Education</h2>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-4">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Colorado Boulder</h3>
-              <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 class="mb-0">SMPN 13 PADANG</h3>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">August 2006 - May 2010</span>
+              <span class="text-primary">2014 - 2017</span>
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">James Buchanan High School</h3>
-              <div class="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 class="mb-0">SMK TEKNOLOGI PLUS PADANG</h3>
+              <div>Multimedia</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">August 2002 - May 2006</span>
+              <span class="text-primary">2017 - 2020</span>
             </div>
           </div>
+
+          <br>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">POLITEKNIK NEGERI PADANG</h3>
+              <div>Manajemen Informatika</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2020 - Sampai sekarang</span>
+            </div>
+          </div>
+         </br>
 
         </div>
       </section>
 
+<!-- PORTOFOLIO -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
+        <div class="my-auto">
+          <h2 class="mb-4">Portfolio</h2>
+          </div>
+          <div class="gambar-1-item rounded p-4 p-lg-5 mb-5">
+            <img class="col-md-6" src="img/gambar-1.jpg" alt="">
+            <h5>Profile Cv</h5>
+          </div>
+      </section>
+
+<!-- Skills -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
@@ -204,6 +228,7 @@
         </div>
       </section>
 
+<!-- CONTACT -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
         <div class="my-auto">
           <h2 class="mb-5">Contact</h2>
@@ -233,7 +258,7 @@
                     </div>
 
                     <iframe class="w-100 rounded"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.363386295678!2d100.36187195001688!3d-0.8652456355519719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwNTEnNTQuOSJTIDEwMMKwMjEnNTAuNiJF!5e0!3m2!1sid!2sid!4v1676881660311!5m2!1sid!2sid"
                     frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
                     tabindex="0"></iframe>
                 </div>
