@@ -181,12 +181,15 @@
 <!-- PORTOFOLIO -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
         <div class="my-auto">
-          <h2 class="mb-4">Portfolio</h2>
-          </div>
-          <div class="gambar-1-item rounded p-4 p-lg-5 mb-5">
-            <img class="col-md-6" src="img/gambar-1.jpg" alt="">
+          <h2 class="mb-5">Portfolio</h2>
+        </div>
+          <div class="gambar-1" style="background-image: url(images/gambar-1.jpg);">
+          <img class="col-md-6" src="img/gambar-1.jpg" alt="">
             <h5>Profile Cv</h5>
           </div>
+           </div>
+          </div>
+        </div>
       </section>
 
 <!-- Skills -->
